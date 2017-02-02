@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: rchoiee491
+  host: rchoiee491
+  disk_quota: 1024M
+  services:
+  - rchoiee491-cloudantNoSQLDB
+  - rchoiee491-iotf-service
